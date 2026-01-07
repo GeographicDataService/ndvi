@@ -1,5 +1,4 @@
-# Small Area UK Vegetation Indices 
-## (2025 EOX-based version)
+# Small Area UK Vegetation Indices (2025 EOX-based version)
 
 These data provide Normalised Difference Vegetation Index (NDVI) and Enhanced Vegetation Index (EVI) statistics for each 2021 Lower Layer Super Output Area (LSOA) in England and Wales; 2021 Super Data Zone in Northern Ireland; and 2022 Data Zones in Scotland. These data have utility in themselves for a range of applications related to the measurement of exposure to green space, and are also a composite component of our Access to Healthy Assets and Hazards indicator. 
 
