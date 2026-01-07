@@ -1,0 +1,17 @@
+Variable,Description
+LSOA21CD,"LSOA (2021) Codes for England and Wales, Data Zones (2022) for Scotland, and Super Data Zones (2021) for Northern Ireland"
+NDVI_MEAN,Mean Normalized Difference Vegetation Index (NDVI) values per LSOA21CD
+NDVI_MEDIAN,Median NDVI values per LSOA21CD
+NDVI_STD,Standard Deviation of NDVI values per LSOA21CD
+NDVI_MAX,Max NDVI value within each LSOA21CD
+NDVI_MIN,Minimum NDVI value within each LSOA21CD
+NDVI_CV,The coefficient of variation (CV) of the NDVI
+VEG_FRAC,Vegetation fraction (VF); the percentage each LSOA21CD that is covered by vegetation (NDVI values > 0.2)
+EVI_MEAN,Mean Enhanced Vegetation Index (EVI) per LSOA21CD
+EVI_MEDIAN,Median EVI per LSOA21CD
+EVI_STD,Standard Deviation of EVI values per LSOA21CD
+EVI_MAX,Max EVI value within each LSOA21CD
+EVI_MIN,MInimum EVI value within each LSOA21CD
+PXL_COUNT,Total number of pixels considered within an LSOA21CD
+FINAL_PXL_COUNT,Final number of pixels within an LSOA21CD after noise filtering
+PCT_FILTERED,(FINAL_PXL_COUNT / PXL_COUNT) * 100; Percentage of pixels removed as noise
