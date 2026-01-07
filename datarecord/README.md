@@ -15,3 +15,5 @@ Input to the NDVI and EVI statistics are derived from Sentinel-2 Cloudless image
 Full details of the data pipeline used to generate these statistics can be found on our GitHub page. It is worth noting that input pixel data noise is reduced by detecting and removing any pixel level NDVI values below -1 and above 1. When using NDVI in analysis, it is highly recommended to use the ‘NDVI_MEDIAN’ to mitigate for the effects of additional noise. Vegetation Fraction (‘VEG_FRAC’) is recommended for determining the cover of vegetation across LSOAs, whilst “greenness” can be determined through ‘NDVI’ or ‘EVI’ values. 
 
 We develop these averaged measures primarily as an indicator of “greenness” for social science and public health related applications, and because the input data related to a cloudless mosaic, which can blend images from multiple different times of the year, these data may impact their use for any phenology-based studies.
+
+Source code for this data is at https://github.com/GeographicDataService/ndvi/. The data itself, and supporting files, are listed above in this folder. 
